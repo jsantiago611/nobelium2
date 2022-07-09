@@ -71,6 +71,7 @@ body::-webkit-scrollbar {
 body {
   scrollbar-width: thin;
   scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  font-family: 'Soehne';
 }
 body::-webkit-scrollbar-track {
   background: var(--scrollbarBG);
