@@ -24,7 +24,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ['"Soehne"', ...fontFamily.sans, ...fontSansCJK],
-        serif: ['"Source Serif"', ...fontFamily.serif, ...fontSerifCJK],
+        serif: ['"Soehne"', ...fontFamily.serif, ...fontSerifCJK],
         noEmoji: [
           '"IBM Plex Sans"',
           'ui-sans-serif',
