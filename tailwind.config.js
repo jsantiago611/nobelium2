@@ -23,9 +23,9 @@ module.exports = {
         }
       },
       fontFamily: {
-        sans: ['"NH"', ...fontFamily.sans, ...fontSansCJK],
-        serif: ['"GT-Super"', ...fontFamily.serif, ...fontSerifCJK],
-        mono: ['"NB"', ...fontFamily.sans, ...fontSansCJK],
+        sans: ['"GT-America"', ...fontFamily.sans, ...fontSansCJK],
+        serif: ['"Bradford"', ...fontFamily.serif, ...fontSerifCJK],
+        mono: ['"GT-America"', ...fontFamily.sans, ...fontSansCJK],
         noEmoji: [
           '"IBM Plex Sans"',
           'ui-sans-serif',
