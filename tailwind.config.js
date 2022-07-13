@@ -23,8 +23,8 @@ module.exports = {
         }
       },
       fontFamily: {
-        sans: ['"GT-America"', ...fontFamily.sans, ...fontSansCJK],
-        serif: ['"Bradford"', ...fontFamily.serif, ...fontSerifCJK],
+        sans: ['"Polysans"', ...fontFamily.sans, ...fontSansCJK],
+        serif: ['"GT-Super"', ...fontFamily.serif, ...fontSerifCJK],
         mono: ['"GT-America"', ...fontFamily.sans, ...fontSansCJK],
         noEmoji: [
           '"IBM Plex Sans"',
