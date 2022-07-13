@@ -12,6 +12,9 @@
   @apply p-0;
   @apply my-3;
 }
+.notion-text{
+ @apply text-xl;
+}
 .notion-page-link {
   color: inherit;
 }
