@@ -8,15 +8,15 @@ const BlogPost = ({ post }) => {
       <a>
         <article key={post.id} className="mb-6 md:mb-8">
           <header className="flex flex-col justify-between md:flex-row md:items-baseline">
-            <h2 className="text-lg md:text-xl font-medium mb-2 cursor-pointer text-black dark:text-gray-100">
+            <h2 className="text-lg md:text-xl font-medium mb-2 cursor-pointer text-black dark:text-gray-100 font-serif tracking-tighter">
               {post.title}
             </h2>
-            <time className="flex-shrink-0 text-gray-600 dark:text-gray-400">
+            <time className="flex-shrink-0 text-gray-600 dark:text-gray-400 font-sans">
               {formatDate(post?.date?.start_date || post.createdTime, BLOG.lang)}
             </time>
           </header>
           <main>
-            <p className="hidden md:block leading-8 text-gray-700 dark:text-gray-300">
+            <p className="hidden md:block leading-8 text-gray-700 dark:text-gray-300 font-sans">
               {post.summary}
             </p>
           </main>
