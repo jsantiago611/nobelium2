@@ -18,6 +18,9 @@
 .notion-page-link {
   color: inherit;
 }
+.notion-h-title {
+  @apply font-sans;
+}
 
 svg.notion-page-icon {
   @apply hidden;
