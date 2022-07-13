@@ -66,7 +66,7 @@ const Layout = ({
         )}
         {children}
         {blockMap && (
-          <div className="-mt-4">
+          <div className="-mt-4 font-sans">
             <NotionRenderer
               recordMap={blockMap}
               components={{
