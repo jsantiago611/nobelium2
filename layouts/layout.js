@@ -56,7 +56,7 @@ const Layout = ({
               )}
             </div>
             {frontMatter.tags && (
-              <div className="flex flex-nowrap max-w-full overflow-x-auto article-tags">
+              <div className="flex flex-nowrap max-w-full overflow-x-auto article-tags font-mono">
                 {frontMatter.tags.map(tag => (
                   <TagItem key={tag} tag={tag} />
                 ))}
