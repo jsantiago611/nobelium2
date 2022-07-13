@@ -6,8 +6,17 @@
   font-family: 'Polysans';
   font-display: swap;
   font-style: normal;
+  font-weight: 700;
   font-named-instance: 'Regular';
   src: url('/fonts/PolySansUS-Median (1).woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Polysans';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  font-named-instance: 'Regular';
+  src: url('/fonts/polysans-slim.woff') format('woff');
 }
 @font-face {
   font-family: 'GT-Super';
