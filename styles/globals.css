@@ -1,30 +1,90 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @font-face {
-  font-family: 'GT-Super';
+  font-family: 'Bradford';
   font-weight: 400;
   font-display: swap;
   font-style: normal;
   font-named-instance: 'Regular';
-  src: url('/fonts/GT-Super-Text-Book.woff') format('woff');
+  src: url('/fonts/BradfordLLWeb-Regular (1).woff2') format('woff2');
 }
+
 @font-face {
-  font-family: 'GT-Super';
-  font-weight: 700;
-  font-display: swap;
-  font-style: normal;
-  font-named-instance: 'Regular';
-  src: url('/fonts/GT-Super-Text-Medium.woff') format('woff');
-}
-@font-face {
-  font-family: 'GT-Super';
+  font-family: 'Bradford';
   font-weight: 400;
   font-display: swap;
   font-style: italic;
   font-named-instance: 'Regular';
-  src: url('/fonts/GT-Super-Text-Book-Italic.woff') format('woff');
+  src: url('/fonts/BradfordLLWeb-Italic.woff2') format('woff2');
 }
+
+@font-face {
+  font-family: 'Bradford';
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+  src: url('/fonts/BradfordLLWeb-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Bradford';
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+  src: url('/fonts/BradfordLLWeb-MediumItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Bradford';
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+  src: url('/fonts/BradfordLLWeb-Bold (1).woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Bradford';
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+  src: url('/fonts/BradfordLLWeb-ExtraBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'GT-America';
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('/fonts/GT-America-Standard-Regular (1).woff2') format('woff2');
+}
+@font-face {
+  font-family: 'GT-America';
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('/fonts/GT-America-Standard-Medium.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'GT-America';
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('/fonts/GT-America-Standard-Bold (1).woff2') format('woff2');
+}
+@font-face {
+  font-family: 'GT-America';
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('/fonts/GT-America-Standard-Black.woff2') format('woff2');
+}
+
 @font-face {
   font-family: 'NB';
   font-weight: 300;
