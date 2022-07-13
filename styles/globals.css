@@ -3,6 +3,38 @@
 @tailwind utilities;
 
 @font-face {
+  font-family: 'Polysans';
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('/fonts/PolySansUS-Median (1).woff2') format('woff2');
+}
+@font-face {
+  font-family: 'GT-Super';
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('/fonts/GT-Super-Text-Book.woff') format('woff');
+}
+@font-face {
+  font-family: 'GT-Super';
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+  font-named-instance: 'Regular';
+  src: url('/fonts/GT-Super-Text-Book-Italic.woff') format('woff');
+}
+@font-face {
+  font-family: 'GT-Super';
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('/fonts/GT-Super-Text-Medium.woff') format('woff');
+}
+
+@font-face {
   font-family: 'Bradford';
   font-weight: 400;
   font-display: swap;
