@@ -2,29 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 @font-face {
-  font-family: 'Soehne';
+  font-family: 'Monument';
   font-weight: 400;
   font-display: swap;
   font-style: normal;
   font-named-instance: 'Regular';
-  src: url('/fonts/soehne-web-buch--.woff2') format('woff2');
+  src: url('/fonts/ABCMonumentGrotesk-Regular.woff2') format('woff2');
 }
 @font-face {
-  font-family: 'Soehne';
+  font-family: 'Monument';
   font-weight: 700;
   font-display: swap;
   font-style: normal;
   font-named-instance: 'Regular';
-  src: url('/fonts/soehne-web-halbfett.woff2') format('woff2');
+  src: url('/fonts/ABCMonumentGrotesk-Medium.woff2') format('woff2');
 }
 @font-face {
-  font-family: 'Soehne';
+  font-family: 'MonumentMono';
   font-weight: 400;
   font-display: swap;
-  font-style: italic;
+  font-style: normal;
   font-named-instance: 'Regular';
-  src: url('/fonts/soehne-web-buch--kursiv.woff2') format('woff2');
+  src: url('/fonts/ABCMonumentGroteskMono-Regular.woff2') format('woff2');
 }
+@font-face {
+  font-family: 'Dia';
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('/fonts/DiaBlack.woff') format('woff');
+}
+
 @font-face {
   font-family: 'IBM Plex Sans';
   font-weight: 100 900;
