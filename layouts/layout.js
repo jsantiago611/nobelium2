@@ -36,7 +36,7 @@ const Layout = ({
         </h1>
         {frontMatter.type[0] !== 'Page' && (
           <nav className="flex mt-7 items-start text-gray-500 dark:text-gray-400">
-            <div className="flex mb-4">
+            <div className="flex mb-4 font-mono">
               <a href={BLOG.socialLink || '#'} className="flex">
                 <Image
                   alt={BLOG.author}
@@ -49,14 +49,14 @@ const Layout = ({
               </a>
               <span className="block">&nbsp;/&nbsp;</span>
             </div>
-            <div className="mr-2 mb-4 md:ml-0">
+            <div className="mr-2 mb-4 md:ml-0 font-mono">
               {formatDate(
                 frontMatter?.date?.start_date || frontMatter.createdTime,
                 BLOG.lang
               )}
             </div>
             {frontMatter.tags && (
-              <div className="flex flex-nowrap max-w-full overflow-x-auto article-tags font-mono">
+              <div className="flex flex-nowrap max-w-full overflow-x-auto article-tags">
                 {frontMatter.tags.map(tag => (
                   <TagItem key={tag} tag={tag} />
                 ))}
