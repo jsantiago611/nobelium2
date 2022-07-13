@@ -13,7 +13,7 @@
   @apply my-3;
 }
 .notion-text{
- @apply text-xl;
+ @apply text-lg;
 }
 .notion-page-link {
   color: inherit;
