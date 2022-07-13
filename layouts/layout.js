@@ -31,7 +31,7 @@ const Layout = ({
       fullWidth={fullWidth}
     >
       <article>
-        <h1 className="font-medium text-3xl text-black dark:text-white font-serif uppercase">
+        <h1 className="font-medium text-3xl text-black dark:text-white font-sans">
           {frontMatter.title}
         </h1>
         {frontMatter.type[0] !== 'Page' && (
@@ -49,7 +49,7 @@ const Layout = ({
               </a>
               <span className="block">&nbsp;/&nbsp;</span>
             </div>
-            <div className="mr-2 mb-4 md:ml-0">
+            <div className="mr-2 mb-4 md:ml-0 font-mono">
               {formatDate(
                 frontMatter?.date?.start_date || frontMatter.createdTime,
                 BLOG.lang
@@ -66,7 +66,7 @@ const Layout = ({
         )}
         {children}
         {blockMap && (
-          <div className="-mt-4 font-sans">
+          <div className="-mt-4 font-mono">
             <NotionRenderer
               recordMap={blockMap}
               components={{
