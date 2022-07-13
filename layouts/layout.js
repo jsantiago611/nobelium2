@@ -31,7 +31,7 @@ const Layout = ({
       fullWidth={fullWidth}
     >
       <article>
-        <h1 className="font-bold text-3xl text-black dark:text-white font-serif">
+        <h1 className="font-bold text-3xl text-black dark:text-white font-serif tracking-tight">
           {frontMatter.title}
         </h1>
         {frontMatter.type[0] !== 'Page' && (
@@ -56,7 +56,7 @@ const Layout = ({
               )}
             </div>
             {frontMatter.tags && (
-              <div className="flex flex-nowrap max-w-full overflow-x-auto article-tags">
+              <div className="flex flex-nowrap max-w-full overflow-x-auto article-tags font-mono">
                 {frontMatter.tags.map(tag => (
                   <TagItem key={tag} tag={tag} />
                 ))}
