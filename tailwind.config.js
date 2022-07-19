@@ -23,9 +23,9 @@ module.exports = {
         }
       },
       fontFamily: {
-        sans: ['"Polysans"', ...fontFamily.sans, ...fontSansCJK],
-        serif: ['"GT-Super"', ...fontFamily.serif, ...fontSerifCJK],
-        mono: ['"Polysans"', ...fontFamily.sans, ...fontSansCJK],
+        sans: ['"Suisse-Regular"', ...fontFamily.sans, ...fontSansCJK],
+        serif: ['"Suisse-Works"', ...fontFamily.serif, ...fontSerifCJK],
+        mono: ['"Suisse-Mono"', ...fontFamily.sans, ...fontSansCJK],
         noEmoji: [
           '"IBM Plex Sans"',
           'ui-sans-serif',
