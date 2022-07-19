@@ -25,7 +25,7 @@ module.exports = {
       fontFamily: {
         sans: ['"Suisse-Works"', ...fontFamily.sans, ...fontSansCJK],
         serif: ['"Suisse-Regular"', ...fontFamily.serif, ...fontSerifCJK],
-        mono: ['"Suisse-Mono"', ...fontFamily.sans, ...fontSansCJK],
+        mono: ['"FoundersMono"', ...fontFamily.sans, ...fontSansCJK],
         noEmoji: [
           '"IBM Plex Sans"',
           'ui-sans-serif',
