@@ -23,8 +23,9 @@ module.exports = {
         }
       },
       fontFamily: {
-        sans: ['"Suisse-Works"', ...fontFamily.sans, ...fontSansCJK],
-        serif: ['"Suisse-Regular"', ...fontFamily.serif, ...fontSerifCJK],
+        sans: ['"FoundersText"', ...fontFamily.sans, ...fontSansCJK],
+        serif: ['"HeldaneText"', ...fontFamily.serif, ...fontSerifCJK],
+        display: ['"HeldaneDisplay"', ...fontFamily.serif, ...fontSerifCJK],
         mono: ['"FoundersMono"', ...fontFamily.sans, ...fontSansCJK],
         noEmoji: [
           '"IBM Plex Sans"',
