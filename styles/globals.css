@@ -3,21 +3,46 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Polysans';
-  font-display: swap;
-  font-style: normal;
-  font-weight: 700;
-  font-named-instance: 'Regular';
-  src: url('/fonts/PolySansUS-Median (1).woff2') format('woff2');
-}
-@font-face {
-  font-family: 'Polysans';
+  font-family: 'Suisse-Regular';
   font-display: swap;
   font-style: normal;
   font-weight: 400;
   font-named-instance: 'Regular';
-  src: url('/fonts/polysans-slim.woff') format('woff');
+  src: url('/fonts/SuisseIntl-Regular.woff2') format('woff2');
 }
+@font-face {
+  font-family: 'Suisse-Cond';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  font-named-instance: 'Regular';
+  src: url('/fonts/SuisseIntlCond-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Suisse-Cond';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  font-named-instance: 'Regular';
+  src: url('/fonts/SuisseIntlCond-Semibold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Suisse-Mono';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  font-named-instance: 'Regular';
+  src: url('/fonts/SuisseIntlMono-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Suisse-Works';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  font-named-instance: 'Regular';
+  src: url('/fonts/SuisseWorks-Regular.woff2') format('woff2');
+}
+
 @font-face {
   font-family: 'GT-Super';
   font-weight: 400;
