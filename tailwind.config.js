@@ -23,8 +23,8 @@ module.exports = {
         }
       },
       fontFamily: {
-        sans: ['"Suisse-Regular"', ...fontFamily.sans, ...fontSansCJK],
-        serif: ['"Suisse-Works"', ...fontFamily.serif, ...fontSerifCJK],
+        sans: ['"Suisse-Works"', ...fontFamily.sans, ...fontSansCJK],
+        serif: ['"Suisse-Regular"', ...fontFamily.serif, ...fontSerifCJK],
         mono: ['"Suisse-Mono"', ...fontFamily.sans, ...fontSansCJK],
         noEmoji: [
           '"IBM Plex Sans"',
