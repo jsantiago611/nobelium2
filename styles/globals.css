@@ -1,6 +1,61 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: 'HeldaneDisplay';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  font-named-instance: 'Regular';
+  src: url('/fonts/HeldaneDisplayWeb-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'HeldaneText';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  font-named-instance: 'Regular';
+  src: url('/fonts/HeldaneTextWeb-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'HeldaneText';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 400;
+  src: url('/fonts/HeldaneTextWeb-RegularItalic.woff') format('woff');
+}
+@font-face {
+  font-family: 'FoundersText';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  font-named-instance: 'Regular';
+  src: url('/fonts/FoundersGroteskTextWeb-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'FoundersMono';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  font-named-instance: 'Regular';
+  src: url('/fonts/FoundersGroteskMonoWeb-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'FoundersMono';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  font-named-instance: 'Regular';
+  src: url('/fonts/FoundersGroteskMonoWeb-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'FoundersCond';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  font-named-instance: 'Regular';
+  src: url('/fonts/FoundersGroteskCondensedWeb-Bold.woff') format('woff');
+}
 
 @font-face {
   font-family: 'Suisse-Regular';
