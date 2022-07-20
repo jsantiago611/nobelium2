@@ -1,6 +1,72 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'GT-America';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 100;
+  font-named-instance: 'Regular';
+  src: url('/fonts/GT-America-Standard-Thin.woff') format('woff');
+}
+@font-face {
+  font-family: 'GT-America';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300;
+  font-named-instance: 'Regular';
+  src: url('/fonts/GT-America-Standard-Light (1).woff') format('woff');
+}
+@font-face {
+  font-family: 'GT-America';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 300;
+  font-named-instance: 'Regular';
+  src: url('/fonts/GT-America-Standard-Light-Italic.woff') format('woff');
+}
+@font-face {
+  font-family: 'GT-America';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  font-named-instance: 'Regular';
+  src: url('/fonts/GT-America-Standard-Regular (1).woff') format('woff');
+}
+@font-face {
+  font-family: 'GT-America';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+  font-named-instance: 'Regular';
+  src: url('/fonts/GT-America-Standard-Medium (1).woff') format('woff');
+}
+@font-face {
+  font-family: 'GT-America';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  font-named-instance: 'Regular';
+  src: url('/fonts/GT-America-Standard-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'TT-Ramillas';
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('/fonts/TT-Ramillas-ExtraLight (1).woff') format('woff');
+}
+@font-face {
+  font-family: 'TT-Ramillas';
+  font-display: swap;
+  font-style: italic;
+  font-named-instance: 'Regular';
+  src: url('/fonts/TT-Ramillas-ExtraLight-Italic.woff') format('woff');
+}
+
+
+
 @font-face {
   font-family: 'Lausanne';
   font-display: swap;
