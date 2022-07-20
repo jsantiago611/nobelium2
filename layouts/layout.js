@@ -31,11 +31,11 @@ const Layout = ({
       fullWidth={fullWidth}
     >
       <article>
-        <h1 className="font-light text-5xl text-black dark:text-white font-sans tracking-tight">
+        <h1 className="font-light text-6xl text-black dark:text-white font-sans tracking-tight">
           {frontMatter.title}
         </h1>
         {frontMatter.type[0] !== 'Page' && (
-          <nav className="flex mt-7 items-start text-gray-500 dark:text-gray-400">
+          <nav className="flex mt-7 items-start text-gray-500 dark:text-gray-400 solid border-2 border-y-2 border-gray-200">
             <div className="flex mb-4 font-mono">
               <a href={BLOG.socialLink || '#'} className="flex">
                 <Image
@@ -45,7 +45,7 @@ const Layout = ({
                   src={`https://gravatar.com/avatar/${emailHash}`}
                   className="rounded-full"
                 />
-                <p className="ml-2 md:block font-serif italic font-medium">{BLOG.author}</p>
+                <p className="ml-2 md:block font-serif font-medium">{BLOG.author}</p>
               </a>
               <span className="block">&nbsp;/&nbsp;</span>
             </div>
