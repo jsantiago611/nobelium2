@@ -35,8 +35,8 @@ const Layout = ({
           {frontMatter.title}
         </h1>
         {frontMatter.type[0] !== 'Page' && (
-          <nav className="flex mt-7 items-start text-gray-500 dark:text-gray-400 solid border-y-2 border-gray-200">
-            <div className="flex mb-4 font-mono">
+          <nav className="flex mt-7 items-start text-gray-500 dark:text-gray-400 solid border-y-2 border-gray-200 mb-4">
+            <div className="flex font-mono">
               <a href={BLOG.socialLink || '#'} className="flex">
                 <Image
                   alt={BLOG.author}
@@ -84,7 +84,7 @@ const Layout = ({
         <a>
           <button
             onClick={() => router.push(BLOG.path || '/')}
-            className="mt-2 cursor-pointer hover:text-black dark:hover:text-gray-100 font-mono"
+            className="mt-2 cursor-pointer hover:text-black dark:hover:text-gray-100 font-serif"
           >
             ← {locale.POST.BACK}
           </button>
@@ -92,7 +92,7 @@ const Layout = ({
         <a>
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className="mt-2 cursor-pointer hover:text-black dark:hover:text-gray-100 font-sans"
+            className="mt-2 cursor-pointer hover:text-black dark:hover:text-gray-100 font-serif"
           >
             ↑ {locale.POST.TOP}
           </button>
