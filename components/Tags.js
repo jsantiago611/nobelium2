@@ -20,7 +20,7 @@ const Tags = ({ tags, currentTag }) => {
                 key={key}
                 href={selected ? '/search' : `/tag/${encodeURIComponent(key)}`}
               >
-                <a className="px-4 py-4 block">
+                <a className="px-2 py-4 block">
                   {`${key} (${tags[key]})`}
                 </a>
               </Link>
