@@ -23,10 +23,9 @@ module.exports = {
         }
       },
       fontFamily: {
-        sans: ['"FoundersText"', ...fontFamily.sans, ...fontSansCJK],
-        serif: ['"HeldaneText"', ...fontFamily.serif, ...fontSerifCJK],
-        display: ['"HeldaneDisplay"', ...fontFamily.serif, ...fontSerifCJK],
-        mono: ['"FoundersMono"', ...fontFamily.sans, ...fontSansCJK],
+        sans: ['"BW"', ...fontFamily.sans, ...fontSansCJK],
+        serif: ['"Publico"', ...fontFamily.serif, ...fontSerifCJK],
+        mono: ['"BW"', ...fontFamily.sans, ...fontSansCJK],
         noEmoji: [
           '"IBM Plex Sans"',
           'ui-sans-serif',
