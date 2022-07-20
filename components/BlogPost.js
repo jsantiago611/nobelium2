@@ -16,7 +16,7 @@ const BlogPost = ({ post }) => {
             </time>
           </header>
           <main>
-            <p className="text-lg md:text-lg leading-5 md:leading-5 hidden md:block text-gray-700 dark:text-gray-300 font-serif font-light">
+            <p className="text-lg md:text-lg leading-6 md:leading-6 hidden md:block text-gray-700 dark:text-gray-300 font-serif font-light">
               {post.summary}
             </p>
           </main>
