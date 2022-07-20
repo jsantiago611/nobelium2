@@ -5,8 +5,8 @@ import formatDate from '@/lib/formatDate'
 const BlogPost = ({ post }) => {
   return (
     <Link href={`${BLOG.path}/${post.slug}`}>
-      <a>
-        <article key={post.id} className="mb-6 md:mb-8 divide-y divide-solid divide-gray-200">
+      <a className="divide-y divide-solid divide-gray-200">
+        <article key={post.id} className="mb-6 md:mb-8">
           <header className="flex flex-col justify-between md:flex-row md:items-baseline">
             <h2 className="text-lg md:text-lg font-medium mb-2 cursor-pointer text-black dark:text-gray-100 font-serif hover:underline">
               {post.title}
