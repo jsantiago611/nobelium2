@@ -19,13 +19,13 @@ module.exports = {
           DEFAULT: BLOG.lightBackground || '#ffffff'
         },
         night: {
-          DEFAULT: BLOG.darkBackground || '#111827'
+          DEFAULT: BLOG.darkBackground || '#000000'
         }
       },
       fontFamily: {
-        sans: ['"Lausanne"', ...fontFamily.sans, ...fontSansCJK],
-        serif: ['"GT-Super"', ...fontFamily.serif, ...fontSerifCJK],
-        mono: ['"Lausanne"', ...fontFamily.sans, ...fontSansCJK],
+        sans: ['"GT-America"', ...fontFamily.sans, ...fontSansCJK],
+        serif: ['"TT-Ramillas"', ...fontFamily.serif, ...fontSerifCJK],
+        mono: ['"GT-America"', ...fontFamily.sans, ...fontSansCJK],
         noEmoji: [
           '"IBM Plex Sans"',
           'ui-sans-serif',
