@@ -1,6 +1,64 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'BW';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  font-named-instance: 'Regular';
+  src: url('/fonts/BWHaasGrotesk-55Roman-Web-5cf5733cd9.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'BW';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+  font-named-instance: 'Regular';
+  src: url('/fonts/BWHaasGrotesk-65Medium-Web-8f5de0c368.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'BW';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  font-named-instance: 'Regular';
+  src: url('/fonts/BWHaasGrotesk-75Bold-Web-de8c77cce2.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'BW';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 900;
+  font-named-instance: 'Regular';
+  src: url('/fonts/BWHaasGrotesk-95Black-Web-3629d1569b.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Publico';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  font-named-instance: 'Regular';
+  src: url('/fonts/PublicoText-Bold-Web-3c5266a48e.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Publico';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  font-named-instance: 'Regular';
+  src: url('/fonts/PublicoText-Roman-Web-bfa063ee27.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Publico';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 400;
+  font-named-instance: 'Regular';
+  src: url('/fonts/PublicoText-Italic-Web-b04a2274cf.woff2') format('woff2');
+}
+
 @font-face {
   font-family: 'HeldaneDisplay';
   font-display: swap;
