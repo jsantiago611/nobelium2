@@ -11,12 +11,12 @@ const BlogPost = ({ post }) => {
             <h2 className="text-xl md:text-xl font-medium mb-2 cursor-pointer text-black dark:text-gray-100 font-serif">
               {post.title}
             </h2>
-            <time className="flex-shrink-0 text-gray-600 dark:text-gray-400 font-mono text-sm">
+            <time className="flex-shrink-0 text-gray-400 dark:text-gray-400 font-mono text-sm">
               {formatDate(post?.date?.start_date || post.createdTime, BLOG.lang)}
             </time>
           </header>
           <main>
-            <p className="hidden md:block leading-8 text-gray-400 dark:text-gray-300 font-serif font-light">
+            <p className="hidden md:block leading-8 text-gray-700 dark:text-gray-300 font-serif font-light">
               {post.summary}
             </p>
           </main>
