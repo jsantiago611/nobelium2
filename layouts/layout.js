@@ -66,7 +66,7 @@ const Layout = ({
         )}
         {children}
         {blockMap && (
-          <div className="-mt-4 font-mono">
+          <div className="-mt-4 font-serif">
             <NotionRenderer
               recordMap={blockMap}
               components={{
@@ -92,7 +92,7 @@ const Layout = ({
         <a>
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className="mt-2 cursor-pointer hover:text-black dark:hover:text-gray-100 font-mono"
+            className="mt-2 cursor-pointer hover:text-black dark:hover:text-gray-100 font-sans"
           >
             ↑ {locale.POST.TOP}
           </button>
