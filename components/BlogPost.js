@@ -11,7 +11,7 @@ const BlogPost = ({ post }) => {
             <h2 className="text-lg md:text-lg font-medium mb-2 cursor-pointer text-black dark:text-gray-100 font-serif">
               {post.title}
             </h2>
-            <time className="flex-shrink-0 text-gray-400 dark:text-gray-400 font-mono font-thin	text-sm">
+            <time className="flex-shrink-0 text-gray-400 dark:text-gray-400 font-mono font-thin text-sm">
               {formatDate(post?.date?.start_date || post.createdTime, BLOG.lang)}
             </time>
           </header>
