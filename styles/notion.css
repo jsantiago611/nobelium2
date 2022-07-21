@@ -73,7 +73,8 @@ pre[class*='language-'] {
 }
 .notion-quote {
   padding: 0.2em 0.9em;
-  @apply font-serif;
+  @apply font-sans;
+  color: #B1863D;
 }
 .notion-collection {
   @apply max-w-full;
