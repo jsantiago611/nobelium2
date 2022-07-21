@@ -3,6 +3,37 @@
 @tailwind utilities;
 
 @font-face {
+  font-family: 'Labil';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  font-named-instance: 'Regular';
+  src: url('/fonts/LabilGrotesk-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Labil';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+  font-named-instance: 'Regular';
+  src: url('/fonts/LabilGrotesk-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Rando';
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('/fonts/Rando-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'RandoDisplay';
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('/fonts/RandoDisplay-Medium.woff') format('woff');
+}
+
+@font-face {
   font-family: 'GT-America';
   font-display: swap;
   font-style: normal;
