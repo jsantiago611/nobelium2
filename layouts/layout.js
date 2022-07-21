@@ -17,7 +17,7 @@ const Layout = ({
   blockMap,
   frontMatter,
   emailHash,
-  fullWidth = false
+  fullWidth = true
 }) => {
   const locale = useLocale()
   const router = useRouter()
