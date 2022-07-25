@@ -1,7 +1,7 @@
 const BLOG = {
-  title: 'CRAIGARY',
+  title: 'Notes',
   author: 'Jonathan Santiago',
-  email: 'i@craigary.net',
+  email: 'santiagowriter@gmail.com',
   link: 'https://nobelium-six-alpha.vercel.app/',
   description: 'This gonna be an awesome website.',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
