@@ -23,9 +23,9 @@ module.exports = {
         }
       },
       fontFamily: {
-        sans: ['"Labil"', ...fontFamily.sans, ...fontSansCJK],
-        serif: ['"Labil"', ...fontFamily.serif, ...fontSerifCJK],
-        mono: ['"Labil"', ...fontFamily.sans, ...fontSansCJK],
+        sans: ['"TT-Ramillas"', ...fontFamily.sans, ...fontSansCJK],
+        serif: ['"GT-America"', ...fontFamily.serif, ...fontSerifCJK],
+        mono: ['"GT-America"', ...fontFamily.sans, ...fontSansCJK],
         noEmoji: [
           '"IBM Plex Sans"',
           'ui-sans-serif',
