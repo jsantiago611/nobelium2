@@ -79,6 +79,7 @@ pre[class*='language-'] {
   @apply font-sans;
   border-color: #B1863D;
   @apply text-2xl;
+  @apply italic;
 }
 .notion-collection {
   @apply max-w-full;
