@@ -12,7 +12,8 @@
   @apply p-0;
   @apply my-3;
 }
-.notion-text{
+.notion-text,
+.notion-list {
  @apply text-xl;
  @apply font-light;
 }
