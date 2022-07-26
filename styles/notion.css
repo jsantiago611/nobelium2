@@ -16,11 +16,14 @@
  @apply text-xl;
  @apply font-light;
 }
+.notion b {
+    font-weight: 500;
+}
 .notion-page-link {
   color: inherit;
 }
 .notion-h-title {
-  @apply font-sans;
+  @apply font-serif;
 }
 
 svg.notion-page-icon {
