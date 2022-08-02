@@ -54,7 +54,7 @@ const Layout = ({
               </a>
               <span className="block">&nbsp;/&nbsp;</span>
             </div>
-            <div className="mr-2 md:ml-0 font-mono font-thin inline-flex">
+            <div className="mr-2 md:ml-0 font-mono font-thin inline-flex space-x-1">
               <p>Last Updated on</p>
               <p> </p>
               {formatDate(
