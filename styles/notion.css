@@ -27,7 +27,7 @@
   @apply font-sans;
 }
 .notion-h-title {
-  @apply font-serif;
+  @apply font-sans;
 }
 
 svg.notion-page-icon {
