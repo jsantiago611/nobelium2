@@ -54,8 +54,8 @@ const Layout = ({
               </a>
               <span className="block">&nbsp;/&nbsp;</span>
             </div>
-            <div className="mr-2 md:ml-0 font-mono font-thin">
-              <p>Last Updated on </p>
+            <div className="mr-2 md:ml-0 font-mono font-thin inline-flex">
+              <p>Last Updated on  </p>
               {formatDate(
                 frontMatter?.date?.start_date || frontMatter.createdTime,
                 BLOG.lang
