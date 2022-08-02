@@ -23,9 +23,9 @@ module.exports = {
         }
       },
       fontFamily: {
-        sans: ['"TT-Ramillas"', ...fontFamily.sans, ...fontSansCJK],
-        serif: ['"GT-America"', ...fontFamily.serif, ...fontSerifCJK],
-        mono: ['"GT-America"', ...fontFamily.sans, ...fontSansCJK],
+        sans: ['"Labil"', ...fontFamily.sans, ...fontSansCJK],
+        serif: ['"Rando"', ...fontFamily.serif, ...fontSerifCJK],
+        mono: ['"Labil"', ...fontFamily.sans, ...fontSansCJK],
         noEmoji: [
           '"IBM Plex Sans"',
           'ui-sans-serif',
