@@ -23,6 +23,9 @@
 .notion-page-link {
   color: inherit;
 }
+.notion-link {
+  @apply font-sans;
+}
 .notion-h-title {
   @apply font-serif;
 }
