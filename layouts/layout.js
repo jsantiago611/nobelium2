@@ -36,8 +36,7 @@ const Layout = ({
                 {frontMatter.tags.map(tag => (
                   <TagItem key={tag} tag={tag} />
                 ))}
-              </div>
-            )}
+              </div>)}
         <h1 className="font-medium text-4xl md:text-6xl text-black dark:text-white font-sans tracking-tight uppercase text-center">
           {frontMatter.title}
         </h1>
