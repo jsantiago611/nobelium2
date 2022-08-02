@@ -41,7 +41,7 @@ const Layout = ({
           {frontMatter.title}
         </h1>
         {frontMatter.type[0] !== 'Page' && (
-          <nav className="flex mt-7 text-gray-500 dark:text-gray-400 solid border-y-2 border-gray-200 mb-4 items-center">
+          <nav className="flex mt-7 text-gray-500 dark:text-gray-400 solid border-y-2 border-gray-200 mb-4 justify-center">
             <div className="flex font-mono">
               <a href={BLOG.socialLink || '#'} className="flex">
                 <Image
