@@ -45,7 +45,7 @@ const Layout = ({
                   src={`https://gravatar.com/avatar/${emailHash}`}
                   className="rounded-full"
                 />
-                <p className="ml-2 md:block font-serif font-medium">{BLOG.author}</p>
+                // <p className="ml-2 md:block font-serif font-medium">{BLOG.author}</p>
               </a>
               <span className="block">&nbsp;/&nbsp;</span>
             </div>
