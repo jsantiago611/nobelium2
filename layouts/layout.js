@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Container from '@/components/Container'
 import TagItem from '@/components/TagItem'
 import { NotionRenderer, Equation, Code, Collection, CollectionRow } from 'react-notion-x'
@@ -72,7 +71,7 @@ const Layout = ({
         <a>
           <button
             onClick={() => router.push(BLOG.path || '/')}
-            className="mt-2 cursor-pointer hover:text-black dark:hover:text-gray-100 font-serif"
+            className="mt-2 cursor-pointer hover:text-black dark:hover:text-gray-100 font-sans"
           >
             ← {locale.POST.BACK}
           </button>
@@ -80,7 +79,7 @@ const Layout = ({
         <a>
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className="mt-2 cursor-pointer hover:text-black dark:hover:text-gray-100 font-serif"
+            className="mt-2 cursor-pointer hover:text-black dark:hover:text-gray-100 font-sans"
           >
             ↑ {locale.POST.TOP}
           </button>
