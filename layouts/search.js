@@ -23,7 +23,7 @@ const SearchLayout = ({ tags, posts, currentTag }) => {
           placeholder={
             currentTag ? `Search in #${currentTag}` : 'Search Articles'
           }
-          className="block w-full border px-4 py-2 border-black bg-white text-black dark:bg-night dark:border-white dark:text-white"
+          className="block w-full border px-4 py-4 border-black rounded-lg bg-white text-black dark:bg-night dark:border-white dark:text-white"
           onChange={e => setSearchValue(e.target.value)}
         />
         <svg
