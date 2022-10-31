@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: 'LabilVar';
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('/fonts/LabilGrotesk-Variable.woff2') format('woff2');
+}
 @font-face {
   font-family: 'Labil';
   font-display: swap;
