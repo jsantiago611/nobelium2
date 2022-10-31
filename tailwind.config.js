@@ -24,9 +24,9 @@ module.exports = {
       },
       fontFamily: {
         sans: ['"Labil"', ...fontFamily.sans, ...fontSansCJK],
-        serif: ['"Rando"', ...fontFamily.serif, ...fontSerifCJK],
+        serif: ['"Bradford"', ...fontFamily.serif, ...fontSerifCJK],
         mono: ['"Labil"', ...fontFamily.sans, ...fontSansCJK],
-        display: ['"RandoDisplay"', ...fontFamily.sans, ...fontSansCJK],
+        display: ['"Bradford"', ...fontFamily.sans, ...fontSansCJK],
         noEmoji: [
           '"IBM Plex Sans"',
           'ui-sans-serif',
