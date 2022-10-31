@@ -562,5 +562,5 @@ nav {
 }
 
 .regular:hover {
-  font-variation-settings: "wght" 30, "stbl" 50;
+  font-variation-settings: "wght" 30, "stbl" 20;
 }
