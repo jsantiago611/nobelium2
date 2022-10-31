@@ -556,3 +556,11 @@ nav {
     @apply bg-day bg-opacity-90 dark:bg-night dark:bg-opacity-90;
   }
 }
+
+.regular {
+  font-variation-settings: "wght" 30, "stbl" 100;
+}
+
+.falling {
+  font-variation-settings: "wght" 30, "stbl" 50;
+}
