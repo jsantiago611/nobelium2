@@ -82,7 +82,7 @@ pre[class*='language-'] {
 }
 .notion-quote {
   padding: 0.2em 0.9em;
-  @apply font-sans;
+  @apply font-serif;
   border-color: #2BC609;
   @apply text-2xl;
   @apply italic;
