@@ -561,6 +561,6 @@ nav {
   font-variation-settings: "wght" 30, "stbl" 100;
 }
 
-.falling {
+.regular:hover {
   font-variation-settings: "wght" 30, "stbl" 50;
 }
