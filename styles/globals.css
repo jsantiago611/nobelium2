@@ -559,8 +559,10 @@ nav {
 
 .regular {
   font-variation-settings: "wght" 30, "stbl" 100;
+      font-feature-settings: "ss02";
 }
 
 .regular:hover {
   font-variation-settings: "wght" 30, "stbl" 20;
+  font-feature-settings: "ss02";
 }
