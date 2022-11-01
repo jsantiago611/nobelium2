@@ -25,7 +25,7 @@ module.exports = {
       fontFamily: {
         sans: ['"LabilVar"', '"Labil"', ...fontFamily.sans, ...fontSansCJK],
         serif: ['"Bradford"', ...fontFamily.serif, ...fontSerifCJK],
-        mono: ['"LabilVar"', '"Labil"', ...fontFamily.sans, ...fontSansCJK],
+        mono: ['"Labil"', ...fontFamily.sans, ...fontSansCJK],
         display: ['"Bradford"', ...fontFamily.sans, ...fontSansCJK],
         noEmoji: [
           '"IBM Plex Sans"',
