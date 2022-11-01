@@ -13,6 +13,9 @@ module.exports = {
   purge: ['./pages/**/*.js', './components/**/*.js', './layouts/**/*.js'],
   darkMode: BLOG.appearance === 'auto' ? 'media' : 'class', // or 'media' or 'class'
   theme: {
+    letterSpacing: {
+      tight: '-.035em'
+    },
     extend: {
       colors: {
         day: {
