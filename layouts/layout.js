@@ -36,7 +36,7 @@ const Layout = ({
                   <TagItem key={tag} tag={tag} />
                 ))}
               </div>)}
-        <h1 className="font-medium text-5xl md:text-7xl text-black dark:text-white font-sans tracking-tight uppercase text-center">
+        <h1 className="font-medium text-5xl md:text-7xl text-black dark:text-white font-mono tracking-tight uppercase text-center">
           {frontMatter.title}
         </h1>
         {frontMatter.type[0] !== 'Page' && (
