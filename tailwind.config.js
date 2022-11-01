@@ -23,7 +23,7 @@ module.exports = {
         }
       },
       fontFamily: {
-        sans: ['"LabilVar"', '"Labil"', ...fontFamily.sans, ...fontSansCJK],
+        sans: ['"Labil"', ...fontFamily.sans, ...fontSansCJK],
         serif: ['"Bradford"', ...fontFamily.serif, ...fontSerifCJK],
         mono: ['"Labil"', ...fontFamily.sans, ...fontSansCJK],
         display: ['"Bradford"', ...fontFamily.sans, ...fontSansCJK],
