@@ -463,7 +463,6 @@ body::-webkit-scrollbar {
 body {
   scrollbar-width: thin;
   scrollbar-color: var(--thumbBG) var(--scrollbarBG);
-  font-family: 'Lausanne';
 }
 body::-webkit-scrollbar-track {
   background: var(--scrollbarBG);
@@ -556,7 +555,7 @@ nav {
     @apply bg-day bg-opacity-90 dark:bg-night dark:bg-opacity-90;
   }
 }
-
+ /*
 .regular {
   font-variation-settings: "wght" 30, "stbl" 100;
       font-feature-settings: "ss02","ss03","ss06","ss08";
@@ -566,3 +565,4 @@ nav {
   font-variation-settings: "wght" 30, "stbl" 20;
   font-feature-settings: "ss02","ss03","ss06","ss08";
 }
+*/
