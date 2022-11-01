@@ -23,9 +23,9 @@ module.exports = {
         }
       },
       fontFamily: {
-        sans: ['"Labil"', ...fontFamily.sans, ...fontSansCJK],
-        serif: ['"Bradford"', ...fontFamily.serif, ...fontSerifCJK],
-        mono: ['"Labil"', ...fontFamily.sans, ...fontSansCJK],
+        sans: ['"NH"', ...fontFamily.sans, ...fontSansCJK],
+        serif: ['"GT-Super"', ...fontFamily.serif, ...fontSerifCJK],
+        mono: ['"NB"', ...fontFamily.sans, ...fontSansCJK],
         display: ['"Bradford"', ...fontFamily.sans, ...fontSansCJK],
         noEmoji: [
           '"IBM Plex Sans"',
