@@ -2,6 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'NB_Academie';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  font-named-instance: 'Regular';
+  src: url('/fonts/nb_akademie_regular-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'NB_Academie';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  font-named-instance: 'Regular';
+  src: url('/fonts/nb_akademie_bold-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Koor';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300;
+  font-named-instance: 'Regular';
+  src: url('/fonts/Koor-LightThick.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Koor';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  font-named-instance: 'Regular';
+  src: url('/fonts/Koor-RegularThick.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Koor';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+  font-named-instance: 'Regular';
+  src: url('/fonts/Koor-MediumThick.woff2') format('woff2');
+}
 
 @font-face {
   font-family: 'LabilVar';
