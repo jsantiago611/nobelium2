@@ -8,7 +8,7 @@ const BlogPost = ({ post }) => {
       <a>
         <article key={post.id} className="mb-6 md:mb-8">
           <header className="flex flex-col justify-between md:flex-row md:items-baseline">
-            <h2 className="text-4xl md:text-5xl font-light mb-2 cursor-pointer text-black dark:text-gray-100 font-serif tracking-tight regular hover:underline transition-all">
+            <h2 className="text-4xl md:text-5xl font-bold mb-2 cursor-pointer text-black dark:text-gray-100 font-sans tracking-tighter regular hover:underline transition-all">
               {post.title}
             </h2>
             <time className="flex-shrink-0 text-gray-400 dark:text-gray-400 font-mono font-normal text-sm">
@@ -16,7 +16,7 @@ const BlogPost = ({ post }) => {
             </time>
           </header>
           <main>
-            <p className="text-4xl md:text-5xl hidden md:block text-gray-500 dark:text-gray-300 font-sans lowercase font-light pb-8 border-solid border-gray-300 border-y">
+            <p className="text-4xl md:text-5xl hidden md:block text-gray-500 dark:text-gray-300 font-serif tracking-tighter lowercase font-light pb-8 border-solid border-gray-300 border-y">
               {post.summary}
             </p>
           </main>
