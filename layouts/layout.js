@@ -36,7 +36,7 @@ const Layout = ({
         {frontMatter.type[0] !== 'Page' && (
           <nav className="flex mt-7 text-gray-500 dark:text-gray-400 solid border-y-2 border-gray-200 mb-4 justify-center">
             <div className="mr-2 md:ml-0 font-mono font-regular inline-flex space-x-1">
-              <p>This is a </p>
+              <p>This is a(n) </p>
               {frontMatter.tags && (
               <div className="flex flex-nowrap max-w-full overflow-x-auto article-tags font-mono justify-center border-none">
                 {frontMatter.tags.map(tag => (
