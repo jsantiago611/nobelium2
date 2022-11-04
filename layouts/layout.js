@@ -41,7 +41,7 @@ const Layout = ({
         </h1>
         {frontMatter.type[0] !== 'Page' && (
           <nav className="flex mt-7 text-gray-500 dark:text-gray-400 solid border-y-2 border-gray-200 mb-4 justify-center">
-            <div className="mr-2 md:ml-0 font-mono font-regular inline-flex space-x-1">              
+            <div className="mr-2 md:ml-0 font-mono font-regular inline-flex space-x-1">
               <p>Last updated on</p>
               <p> </p>
               {formatDate(
