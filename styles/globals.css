@@ -576,6 +576,8 @@ nav {
   -ms-user-select: none;
   -khtml-user-select: none;
   user-select: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 @media (min-width: 768px) {
