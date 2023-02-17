@@ -34,7 +34,7 @@ const Layout = ({
           {frontMatter.title}
         </h1>
         {frontMatter.tags && (
-              <div className="space-x-1 flex flex-wrap max-w-full overflow-x-auto article-tags font-mono justify-center border-none text-gray-500 dark:text-gray-400 italic">
+              <div className="space-x-1 mb-4 mt-7 flex flex-wrap max-w-full overflow-x-auto article-tags font-mono justify-center border-none text-gray-500 dark:text-gray-400 italic">
                 {frontMatter.tags.map(tag => (
                   <TagItem key={tag} tag={tag} />
                 ))}
