@@ -30,15 +30,15 @@ const Layout = ({
       fullWidth={fullWidth}
     >
       <article>
+        <h1 className="font-light text-5xl md:text-7xl text-black dark:text-white font-serif tracking-tight text-center regular">
+          {frontMatter.title}
+        </h1>
         {frontMatter.tags && (
-              <div className="flex flex-nowrap max-w-full overflow-x-auto article-tags font-mono justify-center border-none text-gray-500 dark:text-gray-400 italic">
+              <div className="space-x-1 flex flex-wrap max-w-full overflow-x-auto article-tags font-mono justify-center border-none text-gray-500 dark:text-gray-400 italic">
                 {frontMatter.tags.map(tag => (
                   <TagItem key={tag} tag={tag} />
                 ))}
               </div>)}
-        <h1 className="font-light text-5xl md:text-7xl text-black dark:text-white font-serif tracking-tight text-center regular">
-          {frontMatter.title}
-        </h1>
         {frontMatter.type[0] !== 'Page' && (
           <nav className="flex mt-7 text-gray-500 dark:text-gray-400 solid border-y-2 border-gray-200 mb-4 justify-center">
             <div className="mr-2 md:ml-0 font-mono font-regular inline-flex space-x-1">
