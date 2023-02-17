@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Container from '@/components/Container'
 import TagItem from '@/components/TagItem'
 import { NotionRenderer, Equation, Code, Collection, CollectionRow } from 'react-notion-x'
@@ -30,7 +31,7 @@ const Layout = ({
       fullWidth={fullWidth}
     >
       <article>
-        <h1 className="font-bold text-5xl md:text-7xl text-black dark:text-white font-sans tracking-tighter text-center regular">
+        <h1 className="font-bold text-3xl text-black dark:text-white">
           {frontMatter.title}
         </h1>
         {frontMatter.type[0] !== 'Page' && (
@@ -65,7 +66,7 @@ const Layout = ({
         )}
         {children}
         {blockMap && (
-          <div className="-mt-4 font-serif">
+          <div className="-mt-4">
             <NotionRenderer
               recordMap={blockMap}
               components={{
@@ -83,7 +84,7 @@ const Layout = ({
         <a>
           <button
             onClick={() => router.push(BLOG.path || '/')}
-            className="mt-2 cursor-pointer hover:text-black dark:hover:text-gray-100 font-sans"
+            className="mt-2 cursor-pointer hover:text-black dark:hover:text-gray-100"
           >
             ← {locale.POST.BACK}
           </button>
@@ -91,7 +92,7 @@ const Layout = ({
         <a>
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className="mt-2 cursor-pointer hover:text-black dark:hover:text-gray-100 font-sans"
+            className="mt-2 cursor-pointer hover:text-black dark:hover:text-gray-100"
           >
             ↑ {locale.POST.TOP}
           </button>
