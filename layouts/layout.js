@@ -30,7 +30,7 @@ const Layout = ({
       fullWidth={fullWidth}
     >
       <article>
-        <h1 className="font-bold text-5xl md:text-7xl text-black dark:text-white font-sans tracking-tight text-center regular">
+        <h1 className="font-bold text-5xl md:text-7xl text-black dark:text-white font-sans tracking-tighter text-center regular">
           {frontMatter.title}
         </h1>
         {frontMatter.tags && (
