@@ -4,7 +4,6 @@ import formatDate from '@/lib/formatDate'
 
 const BlogPost = ({ post }) => {
   return (
-    <h2>Hi</h2>
     <Link href={`${BLOG.path}/${post.slug}`}>
       <a>
         <article key={post.id} className="mb-6 md:mb-8">
