@@ -497,6 +497,30 @@
   src: url('/fonts/SourceSerif-Italic.var.woff2') format('woff2');
 }
 
+@font-face {
+  font-family: 'Pitch';
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+  src: url('/fonts/pitch-sans-bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Pitch';
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+  src: url('/fonts/pitch-sans-medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Flecha';
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+  src: url('/fonts/FlechaM-Regular.woff2') format('woff2');
+}
+
 html {
   --scrollbarBG: #ffffff00;
   --thumbBG: #b8b8b8;
