@@ -1,7 +1,7 @@
 /* NOTION CSS OVERRIDE */
 
 .notion {
-  @apply text-gray-800 dark:text-gray-300 font-serif;
+  @apply text-gray-800 dark:text-gray-300 font-sans;
   overflow-wrap: break-word;
 }
 .notion,
@@ -18,7 +18,7 @@
  @apply font-light;
 }
 .notion b {
-    font-weight: 400;
+    font-weight: 700;
   @apply font-sans;
 }
 .notion-page-link {
