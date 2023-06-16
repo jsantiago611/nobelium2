@@ -596,10 +596,8 @@ body::-webkit-scrollbar-thumb {
 
 
 .hover\:underline:hover {
+    text-decoration: underline;
     font-variation-settings: "wght" 30, "stbl" 100;
-  transition-property: all;
-    transition-timing-function: cubic-bezier(.4,0,.2,1);
-    transition-duration: .15s;
 }
 
 .sticky-nav-full .nav {
