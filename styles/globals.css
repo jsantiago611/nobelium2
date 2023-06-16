@@ -594,6 +594,11 @@ body::-webkit-scrollbar-thumb {
   overflow: hidden;
 }
 
+.hover\:underline:hover {
+    /* text-decoration: underline; */
+    font-variation-settings: "wght" 30, "stbl" 100;
+}
+
 .sticky-nav-full .nav {
   @apply text-gray-600 dark:text-gray-300;
 }
