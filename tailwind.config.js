@@ -27,8 +27,8 @@ module.exports = {
         }
       },
       fontFamily: {
-        sans: ['"Labilvar"', ...fontFamily.sans, ...fontSansCJK],
-        serif: ['"Bradford"', ...fontFamily.serif, ...fontSerifCJK],
+        sans: ['"Bradford"', ...fontFamily.sans, ...fontSansCJK],
+        serif: ['"Labilvar"', ...fontFamily.serif, ...fontSerifCJK],
         mono: ['"Bradford"', ...fontFamily.sans, ...fontSansCJK],
         display: ['"BW"', ...fontFamily.sans, ...fontSansCJK],
         noEmoji: [
