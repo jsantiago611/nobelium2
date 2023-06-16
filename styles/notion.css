@@ -18,7 +18,8 @@
  @apply font-light;
 }
 .notion b {
-    font-weight: 700;
+    font-weight: 400;
+  @apply font-sans;
 }
 .notion-page-link {
   color: inherit;
