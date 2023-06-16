@@ -594,6 +594,10 @@ body::-webkit-scrollbar-thumb {
   overflow: hidden;
 }
 
+.slow {
+  font-variation-settings: "wght" 30, "stbl" 100;
+}
+
 .hover\:underline:hover {
     font-variation-settings: "wght" 30, "stbl" 100;
   transition-property: all;
