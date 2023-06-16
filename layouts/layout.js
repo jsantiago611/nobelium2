@@ -31,7 +31,7 @@ const Layout = ({
       fullWidth={fullWidth}
     >
       <article>
-        <h1 className="font-serif text-5xl md:text-8xl text-black dark:text-white tracking-tight">
+        <h1 className="font-serif text-5xl md:text-6xl text-black dark:text-white tracking-tighter">
           {frontMatter.title}
         </h1>
         {frontMatter.type[0] !== 'Page' && (
