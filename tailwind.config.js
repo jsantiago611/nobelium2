@@ -27,10 +27,10 @@ module.exports = {
         }
       },
       fontFamily: {
-        sans: ['"Flecha"', ...fontFamily.sans, ...fontSansCJK],
-        serif: ['"Pitch"', ...fontFamily.serif, ...fontSerifCJK],
-        mono: ['"Pitch"', ...fontFamily.sans, ...fontSansCJK],
-        display: ['"Bradford"', ...fontFamily.sans, ...fontSansCJK],
+        sans: ['"NB"', ...fontFamily.sans, ...fontSansCJK],
+        serif: ['"GT-Super"', ...fontFamily.serif, ...fontSerifCJK],
+        mono: ['"NH"', ...fontFamily.sans, ...fontSansCJK],
+        display: ['"NH"', ...fontFamily.sans, ...fontSansCJK],
         noEmoji: [
           '"IBM Plex Sans"',
           'ui-sans-serif',
