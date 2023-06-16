@@ -652,12 +652,12 @@ nav {
 }
 
 .regular {
-  font-variation-settings: "wght" 30, "stbl" 100;
+  font-variation-settings: "wght" 30, "stbl" 20;
       font-feature-settings: "ss02","ss03","ss06","ss08";
 }
 
 .regular:hover {
-  font-variation-settings: "wght" 30, "stbl" 20;
+  font-variation-settings: "wght" 30, "stbl" 100;
   font-feature-settings: "ss02","ss03","ss06","ss08";
 }
 
