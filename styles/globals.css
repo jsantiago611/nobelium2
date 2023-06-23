@@ -2,6 +2,88 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: 'Dinamit';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  font-named-instance: 'Regular';
+  src: url('/fonts/Dinamit_Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Dinamit';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 100;
+  font-named-instance: 'Regular';
+  src: url('/fonts/Dinamit_Extralight.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Dinamit';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  font-named-instance: 'Regular';
+  src: url('/fonts/Dinamit_Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Untitled';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  font-named-instance: 'Regular';
+  src: url('/fonts/UntitledSansWeb-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Untitled';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+  font-named-instance: 'Regular';
+  src: url('/fonts/UntitledSansWeb-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Untitled';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300;
+  font-named-instance: 'Regular';
+  src: url('/fonts/UntitledSansWeb-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Untitled';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  font-named-instance: 'Regular';
+  src: url('/fonts/UntitledSansWeb-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Untitled';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 800;
+  font-named-instance: 'Regular';
+  src: url('/fonts/UntitledSansWeb-Black.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Untitled';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 400;
+  font-named-instance: 'Regular';
+  src: url('/fonts/UntitledSansWeb-RegularItalic.woff2') format('woff2');
+}
+
 @font-face {
   font-family: 'Copernicus';
   font-display: swap;
