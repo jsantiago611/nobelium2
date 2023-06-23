@@ -17,11 +17,7 @@
  @apply text-xl;
  @apply font-light;
 }
-.notion b {
-    font-weight: 500;
-    font-family: Labilvar,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
-    font-variation-settings: "wght" 30, "stbl" 100;
-}
+
 .notion-page-link {
   color: inherit;
 }
