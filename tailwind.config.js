@@ -27,10 +27,10 @@ module.exports = {
         }
       },
       fontFamily: {
-        sans: ['"Bradford"', ...fontFamily.sans, ...fontSansCJK],
-        serif: ['"Bradford"', ...fontFamily.serif, ...fontSerifCJK],
-        mono: ['"Bradford"', ...fontFamily.sans, ...fontSansCJK],
-        display: ['"Bradford"', ...fontFamily.sans, ...fontSansCJK],
+        sans: ['"Untitled"', ...fontFamily.sans, ...fontSansCJK],
+        serif: ['"Untitled"', ...fontFamily.serif, ...fontSerifCJK],
+        mono: ['"Untitled"', ...fontFamily.sans, ...fontSansCJK],
+        display: ['"Untitled"', ...fontFamily.sans, ...fontSansCJK],
         noEmoji: [
           '"IBM Plex Sans"',
           'ui-sans-serif',
